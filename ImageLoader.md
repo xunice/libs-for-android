@@ -1,0 +1,7 @@
+| **Note**: This library is no longer maintained. Please consider using the image loading code from the `BitmapFun` [sample](http://developer.android.com/shareables/training/BitmapFun.zip) application instead. |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+The image loader component binds remote image files to Android views.  It works with stand-alone [ImageViews](http://developer.android.com/reference/android/widget/ImageView.html), and [ImageViews](http://developer.android.com/reference/android/widget/ImageView.html) in an [AdapterView](http://developer.android.com/reference/android/widget/AdapterView.html) such as a [ListView](http://developer.android.com/reference/android/widget/ListView.html) or [Gallery](http://developer.android.com/reference/android/widget/Gallery.html).  Asynchronous image requests are executed by a thread pool, optimized for connection reuse.  The loader provides callbacks and result codes to indicate if an image is loading or if there was an error, making it easy to show a placeholder or error indicator.  The loader also supports preloading off-screen images into an in-memory cache.  Persistent caching is supported, but not included.
+
+
+**Download**: [imageloader.jar](http://downloads.libs-for-android.googlecode.com/git/imageloader.jar)

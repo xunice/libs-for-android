@@ -1,0 +1,6 @@
+| **Note**: This library is no longer maintained. Please consider using [HttpResponseCache](http://developer.android.com/reference/android/net/http/HttpResponseCache.html) instead. |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+The file cache library is a file-based implementation of [java.net.ResponseCache](http://developer.android.com/reference/java/net/ResponseCache.html).  It works with [HttpURLConnection](http://developer.android.com/reference/java/net/HttpURLConnection.html), but it does not work with [HttpClient](http://developer.android.com/reference/org/apache/http/client/HttpClient.html).  You can use it to cache images and API responses to reduce latency and provide offline functionality.  The cache includes very basic support for the HTTP `Cache-Control` header, and callers may specify a `max-age` to ignore stale cache entries.  The implementation is customized for Android, and includes work-arounds for known bugs in some versions of the platform.  Please see the class documentation for `FileResponseCache` to learn more.
+
+**Download**: [filecache.jar](http://downloads.libs-for-android.googlecode.com/git/filecache.jar)
